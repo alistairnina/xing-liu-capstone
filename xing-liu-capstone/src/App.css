@@ -641,16 +641,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 20px;
   height: auto;
 }
-/* .benefit{ */
 
-
-/* background-image:url(./assets/img/bkmoney.webp);
-
-border-radius: 64px;
-text-align: center;
-padding: 60px 50px;
-margin-top:60px;
-font-size:xx-large;  */
 @keyframes diamondShine {
   0% {
     background-position: -50% 0;
@@ -669,7 +660,7 @@ font-size:xx-large;  */
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-image:url(./assets/img/bkmoney.webp); /* Base color for the element */
+  background-image:url(./assets/img/bkmoney.webp); 
  
 }
 

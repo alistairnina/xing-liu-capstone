@@ -13,18 +13,23 @@ import TrackVisibility from 'react-on-screen';
 
     let gstHstRefund = 0;
     let ccb = 0;
+    let cwb = 0;
 
-    // Check for GST/HST refund eligibility
-    if (age > 18 && income < 50000) {
+   
+    if (age > 18 && income < 48012) {
       gstHstRefund = 467;
     }
 
-    // Check for CCB eligibility
+    
     if (children >= 1) {
-      ccb = 6997; // Assuming all children are under 18
+      ccb = 6997*children; 
+    }
+    
+    if(age>18 && income< 32244){
+      cwb = 2403;
     }
 
-    const totalBenefits = gstHstRefund + ccb;
+    const totalBenefits = gstHstRefund + ccb + cwb;
     setBenefits(totalBenefits);
   };
 
@@ -62,7 +67,7 @@ import TrackVisibility from 'react-on-screen';
       </form>
       {benefits !== null && (
         <div className="benefit"> 
-          <h3>Total Benefits: ${benefits}</h3>
+          <h3>Potential Benefits: ${benefits}</h3>
         </div>
       )}
     </div>
