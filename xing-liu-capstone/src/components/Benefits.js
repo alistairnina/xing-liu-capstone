@@ -1,12 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/childcarebenefit.webp";
-import projImg2 from "../assets/img/canadadentalbenefit.webp";
+import projImg1 from "../assets/img/taxrefund.webp";
+import projImg2 from "../assets/img/tfsa.webp";
 import projImg3 from "../assets/img/workerbenefit.webp";
-import projImg4 from "../assets/img/taxrefund.webp";
+import projImg4 from "../assets/img/childcarebenefit.webp";
 import projImg5 from "../assets/img/fhsa.webp";
 import projImg6 from "../assets/img/rrsp.webp";
-import projImg7 from "../assets/img/tfsa.webp";
+import projImg7 from "../assets/img/canadadentalbenefit.webp";
 import projImg8 from "../assets/img/resp.webp";
 import projImg9 from "../assets/img/accb.webp";
 
@@ -18,15 +18,15 @@ export const Benefits = () => {
 
   const benefits = [
     {
-      title: "Canada Child Care Benefit",
-      description: "Receive up to $6997 a year! ",
+      title: "GST/HST tax refund",
+      description: "Receive up to $467 a year! ",
       imgUrl: projImg1,
      
       
     },
     {
-      title: "Canada Dental Benefit",
-      description: "Receive up to $650 a year!",
+      title: "TFSA",
+      description: "$7000 per year tax free growth!",
       imgUrl: projImg2,
     },
     {
@@ -35,8 +35,8 @@ export const Benefits = () => {
       imgUrl: projImg3,
     },
     {
-      title: "GST/HST tax refund",
-      description: "Receive up to $467 a year!",
+      title: "Canada Child Care Benefit",
+      description: "Receive up to $6997 a year!",
       imgUrl: projImg4,
     },
     {
@@ -50,8 +50,8 @@ export const Benefits = () => {
       imgUrl: projImg6,
     },
     {
-      title: "TFSA",
-      description: "$7000 per year tax free growth",
+      title: "Canada Dental Benefit",
+      description: "Receive up to $650 a year",
       imgUrl: projImg7,
     },
     {
@@ -83,7 +83,7 @@ export const Benefits = () => {
                       <Nav.Link eventKey="first">Family Benefits</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tax Benefits</Nav.Link>
+                      <Nav.Link eventKey="second">Tax Savings</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">More</Nav.Link>
