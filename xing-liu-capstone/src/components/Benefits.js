@@ -2,10 +2,10 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/childcarebenefit.webp";
 import projImg2 from "../assets/img/canadadentalbenefit.webp";
-import projImg3 from "../assets/img/childdisability.webp";
+import projImg3 from "../assets/img/workerbenefit.webp";
 import projImg4 from "../assets/img/taxrefund.webp";
-import projImg5 from "../assets/img/resp.webp";
-import projImg6 from "../assets/img/tfsa.webp";
+import projImg5 from "../assets/img/fhsa.webp";
+import projImg6 from "../assets/img/rrsp.webp";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,33 +14,35 @@ export const Benefits = () => {
 
   const benefits = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Canada Child Care Benefit",
+      description: "Receive up to $6997 a year! ",
       imgUrl: projImg1,
+     
+      
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Canada Dental Benefit",
+      description: "Receive up to $650 a year!",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Canada Workers Benefit",
+      description: "Receive up to $2403 a year!",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "GST/HST tax refund",
+      description: "Receive up to $467 a year!",
       imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "First Home Savings Account",
+      description: "$40,000 Tax free for your 1st home",
       imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Registered Retirement Savings Account",
+      description: "Lower your tax bracket",
       imgUrl: projImg6,
     },
   ];

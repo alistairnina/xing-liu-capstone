@@ -16,12 +16,12 @@ import TrackVisibility from 'react-on-screen';
 
     // Check for GST/HST refund eligibility
     if (age > 18 && income < 50000) {
-      gstHstRefund = 400;
+      gstHstRefund = 467;
     }
 
     // Check for CCB eligibility
     if (children >= 1) {
-      ccb = 7000; // Assuming all children are under 18
+      ccb = 6997; // Assuming all children are under 18
     }
 
     const totalBenefits = gstHstRefund + ccb;
