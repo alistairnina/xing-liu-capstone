@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import TrackVisibility from 'react-on-screen';
+
 
  export const BenefitCalculator = () => {
   const [age, setAge] = useState('');
@@ -27,41 +29,44 @@ import React, { useState } from 'react';
   };
 
   return (
-    <div className="project" >
-      <h2>Benefit Calculator</h2>
-      <form onSubmit={calculateBenefits}>
-        <div >
+    <section className="project" >
+    
+    <div className="container" >
+      <h2 >Benefit Calculator</h2>
+      <form className= "bcskill-bx" onSubmit={calculateBenefits}>
+        <div className= "skill-bx">
           <label>Age: </label>
-          <input
+          <input className='bcinput'
             type="number"
             value={age}
             onChange={(e) => setAge(e.target.value)}
           />
         </div>
-        <div >
+        <div className= "skill-bx">
           <label>Income: </label>
-          <input
+          <input className='bcinput'
             type="number"
             value={income}
             onChange={(e) => setIncome(e.target.value)}
           />
         </div>
-        <div >
+        <div className= "skill-bx">
           <label>Number of Children: </label>
-          <input
+          <input className='bcinput'
             type="number"
             value={children}
             onChange={(e) => setChildren(e.target.value)}
           />
         </div>
-        <button type="submit">Calculate Benefits</button>
+        <button className="cbbutton" type="submit">Calculate Benefits</button>
       </form>
       {benefits !== null && (
-        <div>
+        <div className="benefit"> 
           <h3>Total Benefits: ${benefits}</h3>
         </div>
       )}
     </div>
+    </section>
   );
 };
 

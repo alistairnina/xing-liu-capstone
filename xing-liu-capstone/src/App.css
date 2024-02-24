@@ -617,8 +617,72 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-.calculator {
-  padding: 80px 0;
-  position: relative;
-  background-color: black;
+/* benefitCalculator css */
+.cbbutton {
+  color: white;
+  font-size:xx-large;
+  background:linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  padding: 20px;
+  border-radius: 20px;
+  position:relative;
+  z-index: 0;
+  display: flex;
+  align-items:center;
 }
+.bcskill-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 60px;
+  font-size:xx-large;
+}
+.bcinput {
+  border-radius: 20px;
+  height: auto;
+}
+/* .benefit{ */
+
+
+/* background-image:url(./assets/img/bkmoney.webp);
+
+border-radius: 64px;
+text-align: center;
+padding: 60px 50px;
+margin-top:60px;
+font-size:xx-large;  */
+@keyframes diamondShine {
+  0% {
+    background-position: -50% 0;
+  }
+  50% {
+    background-position: 150% 0;
+  }
+  100% {
+    background-position: -50% 0;
+  }
+}
+
+.benefit {
+  padding: 60px 50px;
+  border-radius: 64px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image:url(./assets/img/bkmoney.webp); /* Base color for the element */
+  color:/* Text color */
+}
+
+.benefit::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 51%);
+  background-size: 50px 50px;
+  animation: diamondShine 2s linear infinite;
+  z-index: 1;
+}
+

@@ -34,7 +34,7 @@ export const Calculator = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Benefits</h2>
+                        <h2>Calculator</h2>
                         <p>I will help you optimize your benefits and tax</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">

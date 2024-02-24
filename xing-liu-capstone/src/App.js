@@ -9,16 +9,29 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { BenefitCalculator } from './components/BenefitCalculator';
 
+
+
+
+
+
 function App() {
+ 
+  
   return (
     <div className="App">
-      <NavBar />
+      
+
+       <NavBar />
       <Banner />
       <Calculator />
       <BenefitCalculator/>
       <Benefits />
       <Contact />
       <Footer />
+   
+      
+      
+     
     </div>
   );
 }
