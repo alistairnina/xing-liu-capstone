@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to benefit calculator</span>
                 <h1>{`Hi! I'm your`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Benefits Helper", "Tax Saver", "Financial Advisor" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm gonna help you calculate how much benefits you are eligible to get, and how much tax you can save</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}>Let’s Start <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

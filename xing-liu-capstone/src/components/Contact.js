@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/getintouch.webp";
+import contactImg from "../assets/img/want to know more.webp";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
