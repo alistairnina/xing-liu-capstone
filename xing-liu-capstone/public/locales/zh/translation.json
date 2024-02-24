@@ -1,5 +1,6 @@
 {
-    "welcome": "欢迎使用 React",
-    "description": "这是一个简单的语言切换示例。"
+  "banner1": "主页",
+  "banner2": "计算器",
+  "banner3":" 福利"
   }
   
