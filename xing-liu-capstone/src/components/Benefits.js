@@ -6,6 +6,10 @@ import projImg3 from "../assets/img/workerbenefit.webp";
 import projImg4 from "../assets/img/taxrefund.webp";
 import projImg5 from "../assets/img/fhsa.webp";
 import projImg6 from "../assets/img/rrsp.webp";
+import projImg7 from "../assets/img/tfsa.webp";
+import projImg8 from "../assets/img/resp.webp";
+import projImg9 from "../assets/img/accb.webp";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -45,6 +49,22 @@ export const Benefits = () => {
       description: "Lower your tax bracket",
       imgUrl: projImg6,
     },
+    {
+      title: "TFSA",
+      description: "$7000 per year tax free growth",
+      imgUrl: projImg7,
+    },
+    {
+      title: "RESP",
+      description: "$7200 potential governemnt grant",
+      imgUrl: projImg8,
+    },
+    {
+      title: "Affordable Child care benefit",
+      description: "Free child care for family gross income lower than $110000",
+      imgUrl: projImg9,
+    },
+
   ];
 
   return (
@@ -84,8 +104,8 @@ export const Benefits = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>For more info, check https://www.canada.ca/en/services/benefits/finder.html</p>
+                    <Tab.Pane eventKey="second">
+                      <p>For more info, check <a> https://www.canada.ca/en/services/benefits/finder.html</a></p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>For more info, check https://www.canada.ca/en/services/benefits/finder.html</p>
