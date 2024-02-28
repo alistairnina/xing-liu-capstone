@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo_with_transparent_background.png';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon1 from '../assets/img/Maple_Leaf.svg';
+import navIcon2 from '../assets/img/wealthsimple.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
@@ -50,9 +50,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/benefitcalculator?igsh=MWg2MjZ0MjdwMm12aQ%3D%3D&utm_source=qr"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.canada.ca/en/services/benefits/finder.html"><img src={navIcon1} alt="benefit finder" /></a>
+                <a href="https://www.wealthsimple.com/en-ca/tool/tax-calculator"><img src={navIcon2} alt="simple tax calculator" /></a>
+                <a href="https://www.instagram.com/benefitcalculator?igsh=MWg2MjZ0MjdwMm12aQ%3D%3D&utm_source=qr"><img src={navIcon3} alt="instagram" /></a>
               </div>
               <HashLink to="#ZH">
                 <button className="vvd"><span>EN</span></button>
