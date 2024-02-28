@@ -25,7 +25,7 @@ import React, { useState } from 'react';
       ccb = 6997*children; 
     }
     
-    if(age>18 && income< 32244){
+    if(age>18 && income< 32244 && income>0){
       cwb = 2403;
     }
 
@@ -67,7 +67,7 @@ import React, { useState } from 'react';
       </form>
       {benefits !== null && (
         <div className="benefit"> 
-          <h3>Potential Benefits: ${benefits}</h3>
+          <h3>Potential Benefits per year: ${benefits}</h3>
         </div>
       )}
     </div>
